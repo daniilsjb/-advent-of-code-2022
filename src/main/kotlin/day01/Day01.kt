@@ -21,6 +21,7 @@ fun main() {
     println("Answer: $answer2")
 }
 
+@Suppress("SameParameterValue")
 private fun parse(path: String): List<List<Int>> =
     File(path).readText()
         .trim()
