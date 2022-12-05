@@ -51,4 +51,4 @@ private fun part1(data: List<Pair<Range, Range>>): Int =
     data.count { (a, b) -> a.contains(b) || b.contains(a) }
 
 private fun part2(data: List<Pair<Range, Range>>): Int =
-    data.count { (a, b) -> a.overlaps(b) || b.overlaps(a)}
+    data.count { (a, b) -> a.overlaps(b) || b.overlaps(a) }
