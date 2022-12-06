@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-This repository contains my solutions for [Advent of Code](https://adventofcode.com/2021) in 2022! 🎄
+This repository contains my solutions for [Advent of Code](https://adventofcode.com/) in 2022! 🎄
 
 ## Summary
 
@@ -11,7 +11,7 @@ This repository contains my solutions for [Advent of Code](https://adventofcode.
 | 3   |   ✓    |   ✓    | [Day03.kt](src/main/kotlin/day03/Day03.kt) |
 | 4   |   ✓    |   ✓    | [Day04.kt](src/main/kotlin/day04/Day04.kt) |
 | 5   |   ✓    |   ✓    | [Day05.kt](src/main/kotlin/day05/Day05.kt) |
-| 6   |        |        |                                            |
+| 6   |   ✓    |   ✓    | [Day06.kt](src/main/kotlin/day06/Day06.kt) |
 | 7   |        |        |                                            |
 | 8   |        |        |                                            |
 | 9   |        |        |                                            |
