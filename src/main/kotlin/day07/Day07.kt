@@ -49,8 +49,9 @@ private fun parse(path: String): List<Long> {
     return dirs.map { it.value }
 }
 
-private fun part1(data: List<Long>): Long =
-    data.filter { it <= 100000L }.sumOf { it }
+private fun part1(data: List<Long>): Long {
+    return data.filter { it <= 100000L }.sum()
+}
 
 private fun part2(data: List<Long>): Long {
     val required = 30_000_000 - (70_000_000 - data.first())
