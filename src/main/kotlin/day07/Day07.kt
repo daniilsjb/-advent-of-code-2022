@@ -3,7 +3,7 @@ package day07
 import java.io.File
 
 fun main() {
-    val data = parse("src/main/kotlin/day07/Day07.txt")
+    val data = parse("src/main/kotlin/day07/Day07-Sample.txt")
 
     val answer1 = part1(data)
     val answer2 = part2(data)
