@@ -96,5 +96,5 @@ private fun part2(data: List<Sensor>, size: Int = 4_000_000): Long {
             return x.toLong() * 4_000_000L + y.toLong()
         }
     }
-    return 0L
+    error("Beacon not found!")
 }
